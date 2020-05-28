@@ -72,4 +72,4 @@ client.on('guildMemberAdd',member => {
     channel.send(`hi ${member},nice to see you around!!`)
 });
 
-client.login(process.env.BOT.TOKEN);
+client.login(process.env.BOT_TOKEN);
